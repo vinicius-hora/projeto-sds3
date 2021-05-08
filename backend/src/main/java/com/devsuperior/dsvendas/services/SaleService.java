@@ -21,6 +21,7 @@ public class SaleService {
 	@Autowired
 	private SaleRepository repository;
 	
+	@Autowired
 	private SellerRepository sellerRepository;
 	
 	@Transactional(readOnly = true)
