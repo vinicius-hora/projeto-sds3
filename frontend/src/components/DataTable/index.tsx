@@ -2,7 +2,6 @@ import axios from "axios";
 import Pagination from "components/Pagination";
 import { useEffect, useState } from "react";
 import { SalePage } from "types/sale";
-import { isDoStatement } from "typescript";
 import { formatLocalDate } from "utils/format";
 import { BASE_URL } from "utils/requests";
 
